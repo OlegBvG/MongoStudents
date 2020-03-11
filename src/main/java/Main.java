@@ -1,3 +1,4 @@
+import au.com.bytecode.opencsv.CSVReader;
 import com.mongodb.*;
 import com.mongodb.MongoClient;
 import com.mongodb.client.*;
@@ -5,6 +6,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.bson.Document;
 
+import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -12,13 +14,11 @@ import java.util.ArrayList;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Consumer;
 
-
 public class Main {
 
     private static final Logger logger = LogManager.getLogger();
-    private static final int SLEEP = 1000;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         logger.info("Log4j2ExampleApp started.");
         logger.warn("Something to warn");
@@ -39,22 +39,36 @@ public class Main {
         // Удалим из нее все документы
         collection.drop();
 
-        Runtime r = Runtime.getRuntime();
-        Process p = null;
 
-        String command = "d:\\Dev\\mongodb\\bin\\mongoimport --db test --collection Students -f Name,Age,Courses --type csv --file d:\\Skill\\IdeaProjects\\MongoStudents\\src\\main\\resources\\mongo.csv";
+        String mongoCsvFile = Main.class.getResource("mongo.csv").getFile();
+        CSVReader reader = null;
+        try
+        {
+            //Get the CSVReader instance with specifying the delimiter to be used
+            reader = new CSVReader(new FileReader(mongoCsvFile),',');
+            String [] nextLine;
 
-        try {
-            p = r.exec(command);
-            logger.info("Reading csv into Database");
-            Thread.sleep(SLEEP);
-
-        } catch (Exception e){
-
-            logger.info("Error executing " + command + e.toString());
+            //Read one line at a time
+            while ((nextLine = reader.readNext()) != null)
+            {
+                collection.insertOne(new Document()
+                        .append("Name", nextLine[0])
+                        .append("Age",  Integer.parseInt(nextLine[1]))
+                        .append("Courses", nextLine[2]));
+            }
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+        finally {
+            try {
+                reader.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
 
-            for (String name : database.listCollectionNames()) {
+             for (String name : database.listCollectionNames()) {
                 logger.info("Коллекция - " + name);
             }
 

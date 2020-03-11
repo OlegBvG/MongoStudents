@@ -1,7 +1,7 @@
-2020-03-07 00:13:37,996 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 00:13:38,383 WARN Main [main] Something to warn
-2020-03-07 00:13:38,383 ERROR Main [main] Something failed.
-2020-03-07 00:13:38,383 ERROR Main [main] Error message
+2020-03-11 22:38:44,898 INFO Main [main] Log4j2ExampleApp started.
+2020-03-11 22:38:44,938 WARN Main [main] Something to warn
+2020-03-11 22:38:44,938 ERROR Main [main] Something failed.
+2020-03-11 22:38:44,939 ERROR Main [main] Error message
 java.nio.file.NoSuchFileException: \file\does\not\exist
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
@@ -11,10 +11,10 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
 	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
 	at Main.main(Main.java:32) [classes/:?]
-2020-03-07 00:17:01,137 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 00:17:01,153 WARN Main [main] Something to warn
-2020-03-07 00:17:01,154 ERROR Main [main] Something failed.
-2020-03-07 00:17:01,154 ERROR Main [main] Error message
+2020-03-11 22:41:51,253 INFO Main [main] Log4j2ExampleApp started.
+2020-03-11 22:41:51,257 WARN Main [main] Something to warn
+2020-03-11 22:41:51,257 ERROR Main [main] Something failed.
+2020-03-11 22:41:51,258 ERROR Main [main] Error message
 java.nio.file.NoSuchFileException: \file\does\not\exist
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
@@ -24,11 +24,10 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
 	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
 	at Main.main(Main.java:32) [classes/:?]
-2020-03-07 00:17:07,165 INFO Main [main] Reading csv into Database
-2020-03-07 00:28:49,976 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 00:28:49,979 WARN Main [main] Something to warn
-2020-03-07 00:28:49,979 ERROR Main [main] Something failed.
-2020-03-07 00:28:49,980 ERROR Main [main] Error message
+2020-03-11 22:45:34,720 INFO Main [main] Log4j2ExampleApp started.
+2020-03-11 22:45:34,725 WARN Main [main] Something to warn
+2020-03-11 22:45:34,725 ERROR Main [main] Something failed.
+2020-03-11 22:45:34,726 ERROR Main [main] Error message
 java.nio.file.NoSuchFileException: \file\does\not\exist
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
@@ -38,452 +37,89 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
 	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
 	at Main.main(Main.java:32) [classes/:?]
-2020-03-07 00:28:50,698 INFO Main [main] Reading csv into Database
-2020-03-07 00:34:23,898 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 00:34:23,901 WARN Main [main] Something to warn
-2020-03-07 00:34:23,901 ERROR Main [main] Something failed.
-2020-03-07 00:34:23,902 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:30) [classes/:?]
-2020-03-07 00:34:24,454 INFO Main [main] Reading csv into Database
-2020-03-07 00:37:28,577 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 00:37:28,580 WARN Main [main] Something to warn
-2020-03-07 00:37:28,580 ERROR Main [main] Something failed.
-2020-03-07 00:37:28,581 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:30) [classes/:?]
-2020-03-07 00:37:28,995 INFO Main [main] Reading csv into Database
-2020-03-07 00:42:21,096 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 00:42:21,098 WARN Main [main] Something to warn
-2020-03-07 00:42:21,098 ERROR Main [main] Something failed.
-2020-03-07 00:42:21,099 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:31) [classes/:?]
-2020-03-07 00:42:21,579 INFO Main [main] Reading csv into Database
-2020-03-07 00:47:14,135 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 00:47:14,138 WARN Main [main] Something to warn
-2020-03-07 00:47:14,138 ERROR Main [main] Something failed.
-2020-03-07 00:47:14,138 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:31) [classes/:?]
-2020-03-07 00:47:14,697 INFO Main [main] Reading csv into Database
-2020-03-07 00:52:07,044 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 00:52:07,047 WARN Main [main] Something to warn
-2020-03-07 00:52:07,047 ERROR Main [main] Something failed.
-2020-03-07 00:52:07,048 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:31) [classes/:?]
-2020-03-07 00:52:07,532 INFO Main [main] Reading csv into Database
-2020-03-07 01:04:09,203 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 01:04:09,206 WARN Main [main] Something to warn
-2020-03-07 01:04:09,207 ERROR Main [main] Something failed.
-2020-03-07 01:04:09,207 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:31) [classes/:?]
-2020-03-07 01:04:09,743 INFO Main [main] Reading csv into Database
-2020-03-07 01:13:06,469 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 01:13:06,472 WARN Main [main] Something to warn
-2020-03-07 01:13:06,472 ERROR Main [main] Something failed.
-2020-03-07 01:13:06,473 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:31) [classes/:?]
-2020-03-07 01:13:06,947 INFO Main [main] Reading csv into Database
-2020-03-07 01:13:54,367 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 01:13:54,372 WARN Main [main] Something to warn
-2020-03-07 01:13:54,372 ERROR Main [main] Something failed.
-2020-03-07 01:13:54,373 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:31) [classes/:?]
-2020-03-07 01:13:54,976 INFO Main [main] Reading csv into Database
-2020-03-07 01:30:24,488 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 01:30:24,491 WARN Main [main] Something to warn
-2020-03-07 01:30:24,491 ERROR Main [main] Something failed.
-2020-03-07 01:30:24,492 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:31) [classes/:?]
-2020-03-07 01:30:24,976 INFO Main [main] Reading csv into Database
-2020-03-07 01:31:37,039 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 01:31:37,042 WARN Main [main] Something to warn
-2020-03-07 01:31:37,042 ERROR Main [main] Something failed.
-2020-03-07 01:31:37,043 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:31) [classes/:?]
-2020-03-07 01:31:37,575 INFO Main [main] Reading csv into Database
-2020-03-07 01:36:31,099 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 01:36:31,102 WARN Main [main] Something to warn
-2020-03-07 01:36:31,103 ERROR Main [main] Something failed.
-2020-03-07 01:36:31,103 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:32) [classes/:?]
-2020-03-07 01:36:31,649 INFO Main [main] Reading csv into Database
-2020-03-07 01:41:22,746 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 01:41:22,749 WARN Main [main] Something to warn
-2020-03-07 01:41:22,749 ERROR Main [main] Something failed.
-2020-03-07 01:41:22,750 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:32) [classes/:?]
-2020-03-07 01:41:23,244 INFO Main [main] Reading csv into Database
-2020-03-07 01:43:49,738 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 01:43:49,742 WARN Main [main] Something to warn
-2020-03-07 01:43:49,742 ERROR Main [main] Something failed.
-2020-03-07 01:43:49,743 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:32) [classes/:?]
-2020-03-07 01:43:50,213 INFO Main [main] Reading csv into Database
-2020-03-07 01:44:41,949 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 01:44:41,952 WARN Main [main] Something to warn
-2020-03-07 01:44:41,952 ERROR Main [main] Something failed.
-2020-03-07 01:44:41,953 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:32) [classes/:?]
-2020-03-07 01:44:42,448 INFO Main [main] Reading csv into Database
-2020-03-07 01:46:37,990 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 01:46:37,995 WARN Main [main] Something to warn
-2020-03-07 01:46:37,995 ERROR Main [main] Something failed.
-2020-03-07 01:46:37,996 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:32) [classes/:?]
-2020-03-07 01:46:38,481 INFO Main [main] Reading csv into Database
-2020-03-07 01:48:39,474 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 01:48:39,477 WARN Main [main] Something to warn
-2020-03-07 01:48:39,477 ERROR Main [main] Something failed.
-2020-03-07 01:48:39,477 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:32) [classes/:?]
-2020-03-07 01:48:39,938 INFO Main [main] Reading csv into Database
-2020-03-07 01:49:56,550 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 01:49:56,558 WARN Main [main] Something to warn
-2020-03-07 01:49:56,558 ERROR Main [main] Something failed.
-2020-03-07 01:49:56,559 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:32) [classes/:?]
-2020-03-07 01:49:57,149 INFO Main [main] Reading csv into Database
-2020-03-07 01:50:53,320 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 01:50:53,324 WARN Main [main] Something to warn
-2020-03-07 01:50:53,324 ERROR Main [main] Something failed.
-2020-03-07 01:50:53,325 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:32) [classes/:?]
-2020-03-07 01:50:53,839 INFO Main [main] Reading csv into Database
-2020-03-07 01:52:12,205 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 01:52:12,208 WARN Main [main] Something to warn
-2020-03-07 01:52:12,209 ERROR Main [main] Something failed.
-2020-03-07 01:52:12,209 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:32) [classes/:?]
-2020-03-07 01:52:12,765 INFO Main [main] Reading csv into Database
-2020-03-07 01:53:12,096 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 01:53:12,099 WARN Main [main] Something to warn
-2020-03-07 01:53:12,100 ERROR Main [main] Something failed.
-2020-03-07 01:53:12,100 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:32) [classes/:?]
-2020-03-07 01:53:12,595 INFO Main [main] Reading csv into Database
-2020-03-07 01:53:46,497 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 01:53:46,499 WARN Main [main] Something to warn
-2020-03-07 01:53:46,499 ERROR Main [main] Something failed.
-2020-03-07 01:53:46,500 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:32) [classes/:?]
-2020-03-07 01:53:46,964 INFO Main [main] Reading csv into Database
-2020-03-07 01:55:02,352 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 01:55:02,355 WARN Main [main] Something to warn
-2020-03-07 01:55:02,355 ERROR Main [main] Something failed.
-2020-03-07 01:55:02,356 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:32) [classes/:?]
-2020-03-07 01:55:02,861 INFO Main [main] Reading csv into Database
-2020-03-07 01:59:53,378 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 01:59:53,381 WARN Main [main] Something to warn
-2020-03-07 01:59:53,381 ERROR Main [main] Something failed.
-2020-03-07 01:59:53,382 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:32) [classes/:?]
-2020-03-07 01:59:53,893 INFO Main [main] Reading csv into Database
-2020-03-07 02:01:22,825 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 02:01:22,828 WARN Main [main] Something to warn
-2020-03-07 02:01:22,828 ERROR Main [main] Something failed.
-2020-03-07 02:01:22,829 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:32) [classes/:?]
-2020-03-07 02:01:23,343 INFO Main [main] Reading csv into Database
-2020-03-07 02:08:05,047 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 02:08:05,050 WARN Main [main] Something to warn
-2020-03-07 02:08:05,050 ERROR Main [main] Something failed.
-2020-03-07 02:08:05,050 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:32) [classes/:?]
-2020-03-07 02:08:05,534 INFO Main [main] Reading csv into Database
-2020-03-07 02:09:33,253 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 02:09:33,256 WARN Main [main] Something to warn
-2020-03-07 02:09:33,256 ERROR Main [main] Something failed.
-2020-03-07 02:09:33,257 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:32) [classes/:?]
-2020-03-07 02:09:33,846 INFO Main [main] Reading csv into Database
-2020-03-07 02:14:46,700 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 02:14:46,703 WARN Main [main] Something to warn
-2020-03-07 02:14:46,703 ERROR Main [main] Something failed.
-2020-03-07 02:14:46,704 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:27) [classes/:?]
-2020-03-07 02:14:47,226 INFO Main [main] Reading csv into Database
-2020-03-07 02:18:29,465 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 02:18:29,469 WARN Main [main] Something to warn
-2020-03-07 02:18:29,469 ERROR Main [main] Something failed.
-2020-03-07 02:18:29,469 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:27) [classes/:?]
-2020-03-07 02:18:29,967 INFO Main [main] Reading csv into Database
-2020-03-07 02:23:55,105 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 02:23:55,108 WARN Main [main] Something to warn
-2020-03-07 02:23:55,108 ERROR Main [main] Something failed.
-2020-03-07 02:23:55,109 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:27) [classes/:?]
-2020-03-07 02:23:55,716 INFO Main [main] Reading csv into Database
-2020-03-07 02:23:56,733 INFO Main [main] Коллекция - books
-2020-03-07 02:23:56,734 INFO Main [main] Коллекция - Students
-2020-03-07 02:23:56,734 INFO Main [main] Коллекция - users
-2020-03-07 02:26:27,394 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 02:26:27,397 WARN Main [main] Something to warn
-2020-03-07 02:26:27,397 ERROR Main [main] Something failed.
-2020-03-07 02:26:27,398 ERROR Main [main] Error message
-java.nio.file.NoSuchFileException: \file\does\not\exist
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
-	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:27) [classes/:?]
-2020-03-07 02:26:27,908 INFO Main [main] Reading csv into Database
-2020-03-07 02:26:28,917 INFO Main [main] Коллекция - Students
-2020-03-07 02:26:28,917 INFO Main [main] Коллекция - books
-2020-03-07 02:26:28,917 INFO Main [main] Коллекция - users
-2020-03-07 02:26:28,926 INFO Main [main] 
-Общее количество студентов в базе ===>  100 человек.
-2020-03-07 02:26:28,926 INFO Main [main] 
+2020-03-11 22:45:35,309 INFO Main [main] Коллекция - books
+2020-03-11 22:45:35,310 INFO Main [main] Коллекция - users
+2020-03-11 22:45:35,326 INFO Main [main] 
+Общее количество студентов в базе ===>  0 человек.
+2020-03-11 22:45:35,326 INFO Main [main] 
 Из них старше 40 лет:
-2020-03-07 02:26:28,952 INFO Main [main] { "_id" : { "$oid" : "5e62dc24453ea17f95499804" }, "Name" : "Sanah Jacobs", "Age" : 41, "Courses" : "Java,Python,iOS" }
-2020-03-07 02:26:28,952 INFO Main [main] { "_id" : { "$oid" : "5e62dc24453ea17f95499848" }, "Name" : "Elaine Welsh", "Age" : 42, "Courses" : "Web,Android" }
-2020-03-07 02:26:28,953 INFO Main [main] { "_id" : { "$oid" : "5e62dc24453ea17f9549984a" }, "Name" : "Aman Ryder", "Age" : 43, "Courses" : "Web,Python" }
-2020-03-07 02:26:28,953 INFO Main [main] { "_id" : { "$oid" : "5e62dc24453ea17f9549985c" }, "Name" : "Sahra Herman", "Age" : 42, "Courses" : "Java,Android" }
-2020-03-07 02:26:28,953 INFO Main [main] { "_id" : { "$oid" : "5e62dc24453ea17f9549985e" }, "Name" : "Jacques Goulding", "Age" : 43, "Courses" : "Java,Android,iOS" }
-2020-03-07 02:26:28,954 INFO Main [main] --- всего: 5 студентов.
-2020-03-07 02:26:28,961 INFO Main [main] 
+2020-03-11 22:45:35,344 INFO Main [main] --- всего: 0 студентов.
+2020-03-11 22:53:05,223 INFO Main [main] Log4j2ExampleApp started.
+2020-03-11 22:53:05,226 WARN Main [main] Something to warn
+2020-03-11 22:53:05,226 ERROR Main [main] Something failed.
+2020-03-11 22:53:05,227 ERROR Main [main] Error message
+java.nio.file.NoSuchFileException: \file\does\not\exist
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
+	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
+	at Main.main(Main.java:32) [classes/:?]
+2020-03-11 22:53:05,682 INFO Main [main] Коллекция - books
+2020-03-11 22:53:05,682 INFO Main [main] Коллекция - users
+2020-03-11 22:53:05,690 INFO Main [main] 
+Общее количество студентов в базе ===>  0 человек.
+2020-03-11 22:53:05,690 INFO Main [main] 
+Из них старше 40 лет:
+2020-03-11 22:53:05,704 INFO Main [main] --- всего: 0 студентов.
+2020-03-11 22:55:48,633 INFO Main [main] Log4j2ExampleApp started.
+2020-03-11 22:55:48,637 WARN Main [main] Something to warn
+2020-03-11 22:55:48,637 ERROR Main [main] Something failed.
+2020-03-11 22:55:48,638 ERROR Main [main] Error message
+java.nio.file.NoSuchFileException: \file\does\not\exist
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
+	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
+	at Main.main(Main.java:32) [classes/:?]
+2020-03-11 22:55:49,509 INFO Main [main] Коллекция - books
+2020-03-11 22:55:49,509 INFO Main [main] Коллекция - users
+2020-03-11 22:55:49,509 INFO Main [main] Коллекция - Students
+2020-03-11 22:55:49,517 INFO Main [main] 
+Общее количество студентов в базе ===>  100 человек.
+2020-03-11 22:55:49,517 INFO Main [main] 
+Из них старше 40 лет:
+2020-03-11 22:55:49,541 INFO Main [main] --- всего: 0 студентов.
+2020-03-11 23:01:08,080 INFO Main [main] Log4j2ExampleApp started.
+2020-03-11 23:01:08,085 WARN Main [main] Something to warn
+2020-03-11 23:01:08,085 ERROR Main [main] Something failed.
+2020-03-11 23:01:08,086 ERROR Main [main] Error message
+java.nio.file.NoSuchFileException: \file\does\not\exist
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
+	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
+	at Main.main(Main.java:32) [classes/:?]
+2020-03-11 23:01:08,861 INFO Main [main] Коллекция - Students
+2020-03-11 23:01:08,861 INFO Main [main] Коллекция - books
+2020-03-11 23:01:08,862 INFO Main [main] Коллекция - users
+2020-03-11 23:01:08,869 INFO Main [main] 
+Общее количество студентов в базе ===>  100 человек.
+2020-03-11 23:01:08,870 INFO Main [main] 
+Из них старше 40 лет:
+2020-03-11 23:01:08,894 INFO Main [main] { "_id" : { "$oid" : "5e6943843a807533845d5ce8" }, "Name" : "Sanah Jacobs", "Age" : 41, "Courses" : "Java,Python,iOS" }
+2020-03-11 23:01:08,894 INFO Main [main] { "_id" : { "$oid" : "5e6943843a807533845d5d29" }, "Name" : "Elaine Welsh", "Age" : 42, "Courses" : "Web,Android" }
+2020-03-11 23:01:08,894 INFO Main [main] { "_id" : { "$oid" : "5e6943843a807533845d5d2b" }, "Name" : "Aman Ryder", "Age" : 43, "Courses" : "Web,Python" }
+2020-03-11 23:01:08,895 INFO Main [main] { "_id" : { "$oid" : "5e6943843a807533845d5d40" }, "Name" : "Sahra Herman", "Age" : 42, "Courses" : "Java,Android" }
+2020-03-11 23:01:08,895 INFO Main [main] { "_id" : { "$oid" : "5e6943843a807533845d5d42" }, "Name" : "Jacques Goulding", "Age" : 43, "Courses" : "Java,Android,iOS" }
+2020-03-11 23:01:08,896 INFO Main [main] --- всего: 5 студентов.
+2020-03-11 23:01:08,903 INFO Main [main] 
 Самый молодой студент ===>  Opal Squires  возраст: 18 лет.
-2020-03-07 02:26:28,963 INFO Main [main] 
+2020-03-11 23:01:08,905 INFO Main [main] 
 Самый старший студент Aman Ryder  изучает: Web,Python
 
-2020-03-07 02:28:05,868 INFO Main [main] Log4j2ExampleApp started.
-2020-03-07 02:28:05,871 WARN Main [main] Something to warn
-2020-03-07 02:28:05,871 ERROR Main [main] Something failed.
-2020-03-07 02:28:05,872 ERROR Main [main] Error message
+2020-03-11 23:02:38,741 INFO Main [main] Log4j2ExampleApp started.
+2020-03-11 23:02:38,744 WARN Main [main] Something to warn
+2020-03-11 23:02:38,744 ERROR Main [main] Something failed.
+2020-03-11 23:02:38,745 ERROR Main [main] Error message
 java.nio.file.NoSuchFileException: \file\does\not\exist
 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
@@ -492,23 +128,166 @@ java.nio.file.NoSuchFileException: \file\does\not\exist
 	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
 	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
 	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
-	at Main.main(Main.java:27) [classes/:?]
-2020-03-07 02:28:06,379 INFO Main [main] Reading csv into Database
-2020-03-07 02:28:07,393 INFO Main [main] Коллекция - books
-2020-03-07 02:28:07,393 INFO Main [main] Коллекция - users
-2020-03-07 02:28:07,393 INFO Main [main] Коллекция - Students
-2020-03-07 02:28:07,403 INFO Main [main] 
+	at Main.main(Main.java:32) [classes/:?]
+2020-03-11 23:02:39,489 INFO Main [main] Коллекция - Students
+2020-03-11 23:02:39,489 INFO Main [main] Коллекция - books
+2020-03-11 23:02:39,489 INFO Main [main] Коллекция - users
+2020-03-11 23:02:39,497 INFO Main [main] 
 Общее количество студентов в базе ===>  100 человек.
-2020-03-07 02:28:07,404 INFO Main [main] 
+2020-03-11 23:02:39,497 INFO Main [main] 
 Из них старше 40 лет:
-2020-03-07 02:28:07,436 INFO Main [main] { "_id" : { "$oid" : "5e62dc87dcf632a922446c0a" }, "Name" : "Sanah Jacobs", "Age" : 41, "Courses" : "Java,Python,iOS" }
-2020-03-07 02:28:07,437 INFO Main [main] { "_id" : { "$oid" : "5e62dc87dcf632a922446c2c" }, "Name" : "Aman Ryder", "Age" : 43, "Courses" : "Web,Python" }
-2020-03-07 02:28:07,437 INFO Main [main] { "_id" : { "$oid" : "5e62dc87dcf632a922446c2e" }, "Name" : "Elaine Welsh", "Age" : 42, "Courses" : "Web,Android" }
-2020-03-07 02:28:07,438 INFO Main [main] { "_id" : { "$oid" : "5e62dc87dcf632a922446c45" }, "Name" : "Sahra Herman", "Age" : 42, "Courses" : "Java,Android" }
-2020-03-07 02:28:07,439 INFO Main [main] { "_id" : { "$oid" : "5e62dc87dcf632a922446c46" }, "Name" : "Jacques Goulding", "Age" : 43, "Courses" : "Java,Android,iOS" }
-2020-03-07 02:28:07,439 INFO Main [main] --- всего: 5 студентов.
-2020-03-07 02:28:07,449 INFO Main [main] 
+2020-03-11 23:02:39,522 INFO Main [main] { "_id" : { "$oid" : "5e6943df3a80753240ee56ca" }, "Name" : "Sanah Jacobs", "Age" : 41, "Courses" : "Java,Python,iOS" }
+2020-03-11 23:02:39,522 INFO Main [main] { "_id" : { "$oid" : "5e6943df3a80753240ee570b" }, "Name" : "Elaine Welsh", "Age" : 42, "Courses" : "Web,Android" }
+2020-03-11 23:02:39,522 INFO Main [main] { "_id" : { "$oid" : "5e6943df3a80753240ee570d" }, "Name" : "Aman Ryder", "Age" : 43, "Courses" : "Web,Python" }
+2020-03-11 23:02:39,523 INFO Main [main] { "_id" : { "$oid" : "5e6943df3a80753240ee5722" }, "Name" : "Sahra Herman", "Age" : 42, "Courses" : "Java,Android" }
+2020-03-11 23:02:39,523 INFO Main [main] { "_id" : { "$oid" : "5e6943df3a80753240ee5724" }, "Name" : "Jacques Goulding", "Age" : 43, "Courses" : "Java,Android,iOS" }
+2020-03-11 23:02:39,524 INFO Main [main] --- всего: 5 студентов.
+2020-03-11 23:02:39,531 INFO Main [main] 
 Самый молодой студент ===>  Opal Squires  возраст: 18 лет.
-2020-03-07 02:28:07,452 INFO Main [main] 
+2020-03-11 23:02:39,533 INFO Main [main] 
+Самый старший студент Aman Ryder  изучает: Web,Python
+
+2020-03-11 23:06:21,827 INFO Main [main] Log4j2ExampleApp started.
+2020-03-11 23:06:21,831 WARN Main [main] Something to warn
+2020-03-11 23:06:21,831 ERROR Main [main] Something failed.
+2020-03-11 23:06:21,832 ERROR Main [main] Error message
+java.nio.file.NoSuchFileException: \file\does\not\exist
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
+	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
+	at Main.main(Main.java:32) [classes/:?]
+2020-03-11 23:06:22,627 INFO Main [main] Коллекция - books
+2020-03-11 23:06:22,627 INFO Main [main] Коллекция - users
+2020-03-11 23:06:22,627 INFO Main [main] Коллекция - Students
+2020-03-11 23:06:22,635 INFO Main [main] 
+Общее количество студентов в базе ===>  100 человек.
+2020-03-11 23:06:22,635 INFO Main [main] 
+Из них старше 40 лет:
+2020-03-11 23:06:22,659 INFO Main [main] { "_id" : { "$oid" : "5e6944be3a807530b45676ce" }, "Name" : "Sanah Jacobs", "Age" : 41, "Courses" : "Java,Python,iOS" }
+2020-03-11 23:06:22,659 INFO Main [main] { "_id" : { "$oid" : "5e6944be3a807530b456770f" }, "Name" : "Elaine Welsh", "Age" : 42, "Courses" : "Web,Android" }
+2020-03-11 23:06:22,659 INFO Main [main] { "_id" : { "$oid" : "5e6944be3a807530b4567711" }, "Name" : "Aman Ryder", "Age" : 43, "Courses" : "Web,Python" }
+2020-03-11 23:06:22,660 INFO Main [main] { "_id" : { "$oid" : "5e6944be3a807530b4567726" }, "Name" : "Sahra Herman", "Age" : 42, "Courses" : "Java,Android" }
+2020-03-11 23:06:22,660 INFO Main [main] { "_id" : { "$oid" : "5e6944be3a807530b4567728" }, "Name" : "Jacques Goulding", "Age" : 43, "Courses" : "Java,Android,iOS" }
+2020-03-11 23:06:22,661 INFO Main [main] --- всего: 5 студентов.
+2020-03-11 23:06:22,668 INFO Main [main] 
+Самый молодой студент ===>  Opal Squires  возраст: 18 лет.
+2020-03-11 23:06:22,670 INFO Main [main] 
+Самый старший студент Aman Ryder  изучает: Web,Python
+
+2020-03-11 23:07:48,692 INFO Main [main] Log4j2ExampleApp started.
+2020-03-11 23:07:48,694 WARN Main [main] Something to warn
+2020-03-11 23:07:48,695 ERROR Main [main] Something failed.
+2020-03-11 23:07:48,695 ERROR Main [main] Error message
+java.nio.file.NoSuchFileException: \file\does\not\exist
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
+	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
+	at Main.main(Main.java:32) [classes/:?]
+2020-03-11 23:07:49,507 INFO Main [main] Коллекция - books
+2020-03-11 23:07:49,507 INFO Main [main] Коллекция - users
+2020-03-11 23:07:49,508 INFO Main [main] Коллекция - Students
+2020-03-11 23:07:49,516 INFO Main [main] 
+Общее количество студентов в базе ===>  100 человек.
+2020-03-11 23:07:49,516 INFO Main [main] 
+Из них старше 40 лет:
+2020-03-11 23:07:49,541 INFO Main [main] { "_id" : { "$oid" : "5e6945153a80753278e4946e" }, "Name" : "Sanah Jacobs", "Age" : 41, "Courses" : "Java,Python,iOS" }
+2020-03-11 23:07:49,541 INFO Main [main] { "_id" : { "$oid" : "5e6945153a80753278e494af" }, "Name" : "Elaine Welsh", "Age" : 42, "Courses" : "Web,Android" }
+2020-03-11 23:07:49,542 INFO Main [main] { "_id" : { "$oid" : "5e6945153a80753278e494b1" }, "Name" : "Aman Ryder", "Age" : 43, "Courses" : "Web,Python" }
+2020-03-11 23:07:49,542 INFO Main [main] { "_id" : { "$oid" : "5e6945153a80753278e494c6" }, "Name" : "Sahra Herman", "Age" : 42, "Courses" : "Java,Android" }
+2020-03-11 23:07:49,542 INFO Main [main] { "_id" : { "$oid" : "5e6945153a80753278e494c8" }, "Name" : "Jacques Goulding", "Age" : 43, "Courses" : "Java,Android,iOS" }
+2020-03-11 23:07:49,542 INFO Main [main] --- всего: 5 студентов.
+2020-03-11 23:07:49,550 INFO Main [main] 
+Самый молодой студент ===>  Opal Squires  возраст: 18 лет.
+2020-03-11 23:07:49,552 INFO Main [main] 
+Самый старший студент Aman Ryder  изучает: Web,Python
+
+2020-03-11 23:12:04,281 INFO Main [main] Log4j2ExampleApp started.
+2020-03-11 23:12:04,285 WARN Main [main] Something to warn
+2020-03-11 23:12:04,285 ERROR Main [main] Something failed.
+2020-03-11 23:12:04,286 ERROR Main [main] Error message
+java.nio.file.NoSuchFileException: \file\does\not\exist
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
+	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
+	at Main.main(Main.java:32) [classes/:?]
+2020-03-11 23:12:04,943 INFO Main [main] Коллекция - books
+2020-03-11 23:12:04,943 INFO Main [main] Коллекция - users
+2020-03-11 23:12:04,952 INFO Main [main] 
+Общее количество студентов в базе ===>  0 человек.
+2020-03-11 23:12:04,952 INFO Main [main] 
+Из них старше 40 лет:
+2020-03-11 23:12:04,970 INFO Main [main] --- всего: 0 студентов.
+2020-03-11 23:12:26,742 INFO Main [main] Log4j2ExampleApp started.
+2020-03-11 23:12:26,745 WARN Main [main] Something to warn
+2020-03-11 23:12:26,745 ERROR Main [main] Something failed.
+2020-03-11 23:12:26,746 ERROR Main [main] Error message
+java.nio.file.NoSuchFileException: \file\does\not\exist
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
+	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
+	at Main.main(Main.java:32) [classes/:?]
+2020-03-11 23:12:27,438 INFO Main [main] Коллекция - books
+2020-03-11 23:12:27,439 INFO Main [main] Коллекция - users
+2020-03-11 23:12:27,439 INFO Main [main] Коллекция - Students
+2020-03-11 23:12:27,446 INFO Main [main] 
+Общее количество студентов в базе ===>  100 человек.
+2020-03-11 23:12:27,447 INFO Main [main] 
+Из них старше 40 лет:
+2020-03-11 23:12:27,460 INFO Main [main] { "_id" : { "$oid" : "5e69462b3a807521482ebb15" }, "Name" : "Sanah Jacobs", "Age" : 41, "Courses" : "Java,Python,iOS" }
+2020-03-11 23:12:27,461 INFO Main [main] { "_id" : { "$oid" : "5e69462b3a807521482ebb56" }, "Name" : "Elaine Welsh", "Age" : 42, "Courses" : "Web,Android" }
+2020-03-11 23:12:27,461 INFO Main [main] { "_id" : { "$oid" : "5e69462b3a807521482ebb58" }, "Name" : "Aman Ryder", "Age" : 43, "Courses" : "Web,Python" }
+2020-03-11 23:12:27,462 INFO Main [main] { "_id" : { "$oid" : "5e69462b3a807521482ebb6d" }, "Name" : "Sahra Herman", "Age" : 42, "Courses" : "Java,Android" }
+2020-03-11 23:12:27,462 INFO Main [main] { "_id" : { "$oid" : "5e69462b3a807521482ebb6f" }, "Name" : "Jacques Goulding", "Age" : 43, "Courses" : "Java,Android,iOS" }
+2020-03-11 23:12:27,462 INFO Main [main] --- всего: 5 студентов.
+2020-03-11 23:12:27,469 INFO Main [main] 
+Самый молодой студент ===>  Opal Squires  возраст: 18 лет.
+2020-03-11 23:12:27,471 INFO Main [main] 
+Самый старший студент Aman Ryder  изучает: Web,Python
+
+2020-03-11 23:19:15,081 INFO Main [main] Log4j2ExampleApp started.
+2020-03-11 23:19:15,085 WARN Main [main] Something to warn
+2020-03-11 23:19:15,085 ERROR Main [main] Something failed.
+2020-03-11 23:19:15,087 ERROR Main [main] Error message
+java.nio.file.NoSuchFileException: \file\does\not\exist
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:373) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:424) ~[?:?]
+	at java.nio.file.Files.readAllBytes(Files.java:3280) ~[?:?]
+	at Main.main(Main.java:29) [classes/:?]
+2020-03-11 23:19:15,908 INFO Main [main] Коллекция - books
+2020-03-11 23:19:15,908 INFO Main [main] Коллекция - users
+2020-03-11 23:19:15,908 INFO Main [main] Коллекция - Students
+2020-03-11 23:19:15,917 INFO Main [main] 
+Общее количество студентов в базе ===>  100 человек.
+2020-03-11 23:19:15,917 INFO Main [main] 
+Из них старше 40 лет:
+2020-03-11 23:19:15,942 INFO Main [main] { "_id" : { "$oid" : "5e6947c33a80753300088cc0" }, "Name" : "Sanah Jacobs", "Age" : 41, "Courses" : "Java,Python,iOS" }
+2020-03-11 23:19:15,943 INFO Main [main] { "_id" : { "$oid" : "5e6947c33a80753300088d01" }, "Name" : "Elaine Welsh", "Age" : 42, "Courses" : "Web,Android" }
+2020-03-11 23:19:15,943 INFO Main [main] { "_id" : { "$oid" : "5e6947c33a80753300088d03" }, "Name" : "Aman Ryder", "Age" : 43, "Courses" : "Web,Python" }
+2020-03-11 23:19:15,944 INFO Main [main] { "_id" : { "$oid" : "5e6947c33a80753300088d18" }, "Name" : "Sahra Herman", "Age" : 42, "Courses" : "Java,Android" }
+2020-03-11 23:19:15,944 INFO Main [main] { "_id" : { "$oid" : "5e6947c33a80753300088d1a" }, "Name" : "Jacques Goulding", "Age" : 43, "Courses" : "Java,Android,iOS" }
+2020-03-11 23:19:15,944 INFO Main [main] --- всего: 5 студентов.
+2020-03-11 23:19:15,952 INFO Main [main] 
+Самый молодой студент ===>  Opal Squires  возраст: 18 лет.
+2020-03-11 23:19:15,954 INFO Main [main] 
 Самый старший студент Aman Ryder  изучает: Web,Python
 
